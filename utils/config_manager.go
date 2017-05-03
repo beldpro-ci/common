@@ -1,4 +1,4 @@
-package core
+package utils
 
 import (
 	log "github.com/Sirupsen/logrus"
