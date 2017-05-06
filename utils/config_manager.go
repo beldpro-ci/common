@@ -13,9 +13,10 @@ import (
 var configLog = log.WithField("from", "main")
 
 type CliConfig struct {
-	Endpoint string `yaml:"endpoint"`
-	Token    string `yaml:"token"`
-	UserId   string `yaml:"user-id"`
+	Endpoint     string `yaml:"endpoint"`
+	AuthEndpoint string `yaml:"auth-endpoint"`
+	Token        string `yaml:"token"`
+	UserId       string `yaml:"user-id"`
 }
 
 type ConfigurationManager struct {
