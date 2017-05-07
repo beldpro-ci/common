@@ -10,4 +10,5 @@ var (
 	BoldGreen = color.New(color.FgGreen, color.Bold)
 	Red       = color.New(color.FgRed)
 	BoldRed   = color.New(color.FgRed, color.Bold)
+	Normal    = color.New(color.Reset)
 )
